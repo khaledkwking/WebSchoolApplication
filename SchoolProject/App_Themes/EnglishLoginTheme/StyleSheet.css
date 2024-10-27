@@ -1,0 +1,373 @@
+﻿/*@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css');*/
+@import url('../../CSS/bootstrap3.3.0.min.css.css');
+
+@import url('../../CSS/TreeViewStyle.css');
+/*English Styles*/
+/*@import url("../../AssetNew/Content/bundles/_layoutcssbe7d.css");*/
+/*@import url("../../AssetNew/Content/defaultbe7d.css");*/
+
+/*@import url("../../AssetNew/Content/algolia/algolia-minbe7d.css");*/
+
+/*@import url('../../New/css/rtl-theme.css');
+@import url('../../New/css/rtl-theme-elements.css');
+@import url('../../New/css/rtl-theme-blog.css');
+@import url('../../New/css/rtl-theme-shop.css');*/
+
+/*Arabic Styles*/
+/*@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');*/
+
+@import url('../../CSS/family=CairoFont.css');
+@import url("../../assets/vendors/general/tether/dist/css/tether.css");
+@import url("../../assets/vendors/general/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css");
+@import url("../../assets/vendors/general/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css");
+@import url("../../assets/vendors/general/bootstrap-timepicker/css/bootstrap-timepicker.css");
+@import url("../../assets/vendors/general/bootstrap-daterangepicker/daterangepicker.css");
+@import url("../../assets/vendors/general/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css");
+@import url("../../assets/vendors/general/bootstrap-select/dist/css/bootstrap-select.css");
+@import url("../../assets/vendors/general/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css");
+@import url("../../assets/vendors/general/select2/dist/css/select2.css");
+@import url("../../assets/vendors/general/ion-rangeslider/css/ion.rangeSlider.css");
+@import url("../../assets/vendors/general/nouislider/distribute/nouislider.css");
+@import url("../../assets/vendors/general/owl.carousel/dist/assets/owl.carousel.css");
+@import url("../../assets/vendors/general/owl.carousel/dist/assets/owl.theme.default.css");
+@import url("../../assets/vendors/general/dropzone/dist/dropzone.css");
+@import url("../../assets/vendors/general/summernote/dist/summernote.css");
+@import url("../../assets/vendors/general/bootstrap-markdown/css/bootstrap-markdown.min.css");
+@import url("../../assets/vendors/general/animate.css/animate.css");
+@import url("../../assets/vendors/general/toastr/build/toastr.css");
+@import url("../../assets/vendors/general/morris.js/morris.css");
+@import url("../../assets/vendors/general/sweetalert2/dist/sweetalert2.css");
+@import url("../../assets/vendors/general/socicon/css/socicon.css");
+@import url("../../assets/vendors/custom/vendors/line-awesome/css/line-awesome.css");
+@import url("../../assets/vendors/custom/vendors/flaticon/flaticon.css");
+@import url("../../assets/vendors/custom/vendors/flaticon2/flaticon.css");
+@import url("../../assets/vendors/custom/vendors/fontawesome5/css/all.min.css");
+@import url("../../assets/demo/demo6/base/style.bundle.css");
+@import url('../../CSS/Print.css');
+
+
+html {
+    font-family: 'Cairo','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+/*-----------------------------------------------------
+                Project time line Start
+-----------------------------------------------------*/
+
+.Htimeline {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .Htimeline .li {
+        transition: all 200ms ease-in;
+    }
+
+    .Htimeline .timestamp {
+        margin-bottom: 20px;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 100;
+    }
+
+    .Htimeline .date {
+        line-height: 20px;
+        display: block;
+        min-height: 18px;
+    }
+
+    .Htimeline .status {
+        padding: 10px 7px;
+        display: flex;
+        justify-content: center;
+        border-top: 2px dashed #293d9b;
+        position: relative;
+        transition: all 200ms ease-in;
+    }
+
+        .Htimeline .status h4 {
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .Htimeline .status:before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            border-radius: 25px;
+            border: 1px solid #ddd;
+            position: absolute;
+            top: -10px;
+            left: 42%;
+            transition: all 200ms ease-in;
+        }
+
+
+
+    .Htimeline .current-date > .timestamp {
+        margin-bottom: 20px;
+        padding: 0px 0px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 100;
+    }
+
+    .Htimeline .current-date .date {
+        color: red;
+    }
+
+    .Htimeline .current-date .status:before {
+        content: none;
+    }
+
+    /*.Htimeline .current-date  .status {
+        
+        border-top: 2px dashed #ff0000;
+    }*/
+    .Htimeline .current-date .status h4 {
+        color: #ff0000;
+    }
+
+        .Htimeline .current-date .status h4:before {
+            content: '\25bc' !important;
+            position: absolute;
+            top: -25px;
+            left: 42%;
+            transition: all 200ms ease-in;
+            color: #ff0000;
+            font-size: 20px;
+        }
+
+
+    .Htimeline .latestatus > h4:after {
+        content: '';
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        border-radius: 25px;
+        border: 1px solid #ddd;
+        position: absolute;
+        top: -10px;
+        left: 42%;
+        transition: all 200ms ease-in;
+    }
+
+    .Htimeline .li.complete .status {
+        border-top: 2px solid #293d9b;
+    }
+
+        .Htimeline .li.complete .status:before {
+            background-color: #293d9b;
+            border: none;
+            transition: all 200ms ease-in;
+        }
+
+        .Htimeline .li.complete .status h4 {
+            color: #293d9b;
+        }
+
+    .Htimeline .li.late .status {
+        border-top: 2px solid #293d9b;
+    }
+
+        .Htimeline .li.late .status:before {
+            background-color: #f00;
+            border: none;
+            transition: all 200ms ease-in;
+            display: none
+        }
+
+        .Htimeline .li.late .status h4 {
+            color: #293d9b;
+        }
+
+    .Htimeline li:last-child {
+        position: relative;
+    }
+
+        .Htimeline li:last-child::after {
+            content: '\25C0';
+            position: absolute;
+            top: 30%;
+            left: -12px;
+            transition: all 200ms ease-in;
+            color: #293d9b;
+            font-size: 20px;
+        }
+
+@media (min-device-width: 320px) and (max-device-width: 700px) {
+    .Htimeline .timeline {
+        list-style-type: none;
+        display: block;
+    }
+
+    .Htimeline .li {
+        transition: all 200ms ease-in;
+        display: flex;
+        width: inherit;
+    }
+
+    .Htimeline .timestamp {
+        width: 100px;
+    }
+
+    .Htimeline .status:before {
+        left: -8%;
+        top: 30%;
+        transition: all 200ms ease-in;
+    }
+}
+/*-----------------------------------------------------
+                Project time line END
+-----------------------------------------------------*/
+
+/*-----------------------------------------------------
+                SHAIKH UPDATES
+-----------------------------------------------------*/
+.kt-header {
+    background-color: #2a3448;
+}
+
+.kt-header__brand {
+    background-color: #FFF;
+}
+
+.kt-header-menu .kt-menu__nav > .kt-menu__item:hover > .kt-menu__link > .kt-menu__link-text, 
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link > .kt-menu__link-text, 
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover > .kt-menu__link > .kt-menu__link-text {
+    color: #fff;
+}
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link > .kt-menu__link-text {
+    color: #2a3448;
+}
+.kt-header .kt-header__title {
+    color: #FFF;
+}
+
+.thead-dark a {
+    color: #feb507;
+}
+.thead-dark a:hover {
+    color: #fff;
+}
+.thead-dark th {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold !important;
+    vertical-align: middle !important;
+}
+
+/*-----------------------------------------------------
+                paginationCust
+-----------------------------------------------------*/
+.paginationCust {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.pagelink {
+    margin-left: 0.4rem;
+    border-radius: 3px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 2.25rem;
+    min-width: 2.25rem;
+    vertical-align: middle;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+    float: left;
+    background-color: #2a3448;
+    color: #fff;
+}
+
+
+.Current {
+    background-color: #ffb607;
+    color: #ffffff;
+}
+
+.pagelink:hover {
+    background: #eaaf21;
+    color: #ffffff;
+}
+.paginationCust .aspNetDisabled {
+    color: #fff !important;
+    background-color: #d6dce0
+}
+.loginMargin {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.newSearchTitle {
+    font-weight: bold;
+    font-size: 13px;
+ 
+}
+.Titlepage {
+    font-family: 'Droid-Arabic-Kufi bold';
+    font-size: 22px;
+    position: relative;
+    top: 0;
+    margin: 15px 0 0 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0px 0px;
+    color: darkblue;
+}
+.CompanyNameTitle {
+    font-family: 'Droid-Arabic-Kufi bold';
+    font-size: 18px;
+    position: relative;
+    top: 0;
+    margin: 10px 0 0 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0px 0px;
+    color: brown;
+    font-weight: bold;
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.alert.alert-warning {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #7f4624;
+    background-color: #fdece1;
+    border-color: #f69055;
+}

@@ -1,0 +1,552 @@
+.JQAnimationBanner {
+    width: 100%;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255,1);
+}
+
+.container.cont-login {
+    width: 884px;
+    margin: 28px auto 0;
+    display: block;
+    background: #fff;
+    box-shadow: 0px 1px 3px #bdbcbc;
+    /*padding: 0 0px 15px 46px;*/
+}
+
+div#login {
+    padding: 0 0 0 50px;
+}
+
+div#login-bx {
+    padding-right: 50px;
+}
+
+div#loginPanel {
+    border-left: 1px solid #ccc;
+}
+
+.hdMetaLinks_menu {
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    float: right;
+}
+
+    .hdMetaLinks_menu li {
+        padding: 0;
+        float: left;
+        list-style: none;
+    }
+
+        .hdMetaLinks_menu li span {
+            color: #646464;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+        .hdMetaLinks_menu li a {
+            padding: 0;
+            margin: 0 0 0 15px;
+            color: #ffffff;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+.mobile-display-table {
+    display: none;
+}
+
+.icon-follow {
+    font-size: 21px;
+    float: left;
+    display: none;
+}
+
+.MetaLinks {
+    float: right;
+}
+
+.icon-follow ul {
+    padding: 0;
+    margin: -5px 0 0 0;
+    float: left;
+}
+
+    .icon-follow ul li {
+        padding: 0;
+        float: left;
+        list-style: none;
+    }
+
+        .icon-follow ul li a {
+            display: block;
+            padding: 0;
+            margin: 0 0 0 5px;
+        }
+.guestblncbox {
+    width: 100%;
+    float: left;
+}
+
+.float-left {
+    float: left !important;
+}
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt11 {
+    margin-top: 11px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.mt13 {
+    margin-top: 13px;
+}
+
+.mt14 {
+    margin-top: 14px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.mt17 {
+    margin-top: 17px;
+}
+
+.mt18 {
+    margin-top: 18px;
+}
+
+.cartprice {
+    float: left;
+    margin-left: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    top: 0;
+    color: #fff;
+}
+.icon_sprt {
+    background: url(../../eurekamediastore.blob.core.windows.net/images/social-sprite-new-a01ff2d2.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: -43px -63px;
+    /* background-size: cover; */
+    float: left;
+}
+
+.icon_sprt_app {
+    background: url(../../eurekamediastore.blob.core.windows.net/images/social-sprite-new-a01ff2d2.png) no-repeat;
+    width: 101px;
+    height: 30px;
+    background-position: -44px -122px;
+    float: left;
+}
+
+.icon_sprt_google {
+    background: url(../../eurekamediastore.blob.core.windows.net/images/social-sprite-new-a01ff2d2.png) no-repeat;
+    width: 101px;
+    height: 30px;
+    background-position: -152px -122px;
+    /* background-size: cover; */
+    float: left;
+}
+.textnum {
+    float: left;
+    margin-left: 8px;
+    font-weight: bold;
+    width: 21px;
+    height: 20px;
+    background-color: #ffffff;
+    color: #0f8ef7;
+    padding: 0;
+    line-height: 21px;
+    position: relative;
+    font-size: 14px;
+    top: 1px;
+    border-radius: 2px;
+}
+span.valuetitle.ng-binding {
+    margin-left: 3px;
+}
+.cartbanalceitm-link {
+    position: relative;
+    display: block;
+    display: table;
+    font-size: 17px;
+    padding: 7px 0;
+    float: right;
+    text-align: center;
+}
+
+    .cartbanalceitm-link:hover {
+        text-decoration: none;
+    }
+.lstploading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1006;
+    text-align: center;
+}
+
+    .lstloading .circleSpin, .lstploading .circleSpin {
+        position: relative;
+        top: 50%;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 3px;
+        -moz-transform: translate3d(0,-50%,0);
+        -ms-transform: translate3d(0,-50%,0);
+        -o-transform: translate3d(0,-50%,0);
+        -webkit-transform: translate3d(0,-50%,0);
+        transform: translate3d(0,-50%,0);
+        background: #fff;
+        padding: 5px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+        .lstloading .circleSpin .circle, .lstploading .circleSpin .circle {
+            height: 40px !important;
+            width: 40px !important;
+            margin: 0 auto;
+            border-bottom: 1px solid #dfdfdf;
+            border-left: 1px solid #dfdfdf;
+            border-right: 1px solid #003067;
+            border-top: 1px solid #003067;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            -webkit-animation: circlespin 0.8s infinite linear;
+            -khtml-animation: circlespin 0.8s infinite linear;
+            -moz-animation: circlespin 0.8s infinite linear;
+            -ms-animation: circlespin 0.8s infinite linear;
+            -o-animation: circlespin 0.8s infinite linear;
+            animation: circlespin 0.8s infinite linear;
+        }
+
+span.itemPrice.ng-scope {
+    font-size: 28px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
+    display: none !important;
+}
+
+.e_menu {
+}
+
+
+    .e_menu ul.eka-tp-mu {
+        display: table;
+        margin: 0 auto 0;
+        position: relative;
+        left: 11px;
+        padding: 0 17px;
+    }
+
+ul.megasubmenu {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.e_menu ul.eka-tp-mu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 6px 0px;
+    text-align: left;
+}
+
+ul.eka-tp-mu.more-menu {
+    text-align: center !important;
+    /* padding-top: 7px; */
+    width: 72%;
+    padding: 7px 0px 0px;
+}
+
+    /*ul.eka-tp-mu.more-menu li {
+    height:27px;
+}*/
+    ul.eka-tp-mu.more-menu .drop-menu {
+        top: 38px;
+        left: 0;
+        width: 100%;
+        right: 0;
+    }
+
+.megamenuUL li {
+    height: auto !important;
+}
+
+.sc_anc {
+}
+@keyframes circlespin {
+    from {
+        -webkit-transform: rotate(0deg);
+        -khtml-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        zoom: 1;
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+        -khtml-transform: rotate(359deg);
+        -moz-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        transform: rotate(359deg);
+        zoom: 1;
+    }
+}
+
+
+
+.Price {
+    /*width: 80px;
+    height: 30px;*/
+    text-align: center;
+    vertical-align: top;
+    font-family: TAHOMA;
+    font-size: 13pt;
+    color:red;
+}
+
+.ProductsLables {
+    height: 25px;
+    text-align: center;
+    vertical-align: top;
+    /*font-family: TAHOMA;*/
+    font-size: 12pt;
+    /*color: white;*/
+}
+
+.swiper-container {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.icon-follow {
+    font-size: 21px;
+    float: left;
+    display: none;
+}
+
+.MetaLinks {
+    float: right;
+}
+
+.icon-follow ul {
+    padding: 0;
+    margin: -5px 0 0 0;
+    float: left;
+}
+
+    .icon-follow ul li {
+        padding: 0;
+        float: left;
+        list-style: none;
+    }
+
+        .icon-follow ul li a {
+            display: block;
+            padding: 0;
+            margin: 0 0 0 5px;
+        }
+
+
+.hdMetaLinks_menu {
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+    float: right;
+}
+
+    .hdMetaLinks_menu li {
+        padding: 0;
+        float: left;
+        list-style: none;
+    }
+
+        .hdMetaLinks_menu li span {
+            color: #646464;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+        .hdMetaLinks_menu li a {
+            padding: 0;
+            margin: 0 0 0 15px;
+            color: #ffffff;
+            font-weight: normal;
+            font-size: 12px;
+        }
+.container.cont-login {
+    width: 884px;
+    margin: 28px auto 0;
+    display: block;
+    background: #fff;
+    box-shadow: 0px 1px 3px #bdbcbc;
+    /*padding: 0 0px 15px 46px;*/
+}
+
+div#login {
+    padding: 0 0 0 50px;
+}
+
+div#login-bx {
+    padding-right: 50px;
+}
+
+div#loginPanel {
+    border-left: 1px solid #ccc;
+}
+.guestblncbox {
+    width: 100%;
+    float: left;
+}
+.float-left {
+    float: left !important;
+}
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt11 {
+    margin-top: 11px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.mt13 {
+    margin-top: 13px;
+}
+
+.mt14 {
+    margin-top: 14px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.mt17 {
+    margin-top: 17px;
+}
+
+.mt18 {
+    margin-top: 18px;
+}
+
+.mt19 {
+    margin-top: 19px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb11 {
+    margin-bottom: 11px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.mb13 {
+    margin-bottom: 13px;
+}
+
+.mb14 {
+    margin-bottom: 14px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+.headLink {
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: transparent;
+}
+
+.FooterLink {
+    background-color: transparent;
+    text-decoration: none;
+    text-align:right;
+   
+}

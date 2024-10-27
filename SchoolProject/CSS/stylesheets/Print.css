@@ -1,0 +1,2446 @@
+@import url(//fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Droid Arabic Kufi', 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+page[size="A4"] {
+    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0cm; /*box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);*/
+}
+
+@media print {
+    body, page[size="A4"] {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+
+div#data,
+div#data div {
+    width: 98% !important;
+    border: none !important;
+}
+
+table.plain {
+    page-break-inside: avoid;
+}
+/*body {
+    background-image: url('../Forms/01-Training-Application-Form.jpg');
+}*/
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#header {
+    display: none;
+}
+
+.wrap-slider .page-title h1 {
+    text-align: center;
+    visibility: hidden;
+    display: none;
+}
+
+.breadcrumbs {
+    display: none;
+}
+
+.logoboga {
+    display: block !important;
+}
+
+.pd-top-25 {
+    padding: 0;
+}
+
+.wrap-slider {
+    height: 0px;
+    visibility: hidden;
+    display: none;
+}
+.CellPad {
+    margin-bottom: 30px;
+}
+/*.table {
+    width: 100%;
+    min-width:970px;
+    margin-bottom: 20px;
+}*/
+
+/*.table-body .table > thead > tr > th, .table-body .table > tr > th {
+    
+    padding: 15px 5px 13px 5px;
+    text-align: right;
+    vertical-align: middle;
+    border: 1px solid #eee;
+}
+    .table > thead > tr > th a, .table-body .table > tr > th > a {
+        color: #000 !important;
+    }
+.table-body .table thead {
+    border-top: 1px solid #eee;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+    border: 1px solid #eee;
+}*/
+#footer {
+    display: none;
+}
+
+.bottom {
+    display: none;
+}
+
+.noprint {
+    visibility: hidden;
+    display: none;
+}
+
+.PrintOnly {
+    visibility: visible;
+    display: block;
+}
+.ArabictextTilte{
+    text-align: center;
+    font-size: 14px;
+}
+.Arabictext {
+   
+    font-size: 14px;
+}
+/* ************************************************************
+    
+    Temp_17 - for the main registration
+
+************************************************************ */
+.Temp_17 {
+    position: relative;
+}
+
+    .Temp_17 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_17 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+    }
+
+    .Temp_17 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+    }
+
+    .Temp_17 .Title {
+        top: 218px;
+        right: 182px;
+        width: 583px;
+    }
+
+    .Temp_17 .TrainingsDateStart {
+        top: 255px;
+        right: 194px;
+        width: 154px;
+    }
+
+    .Temp_17 .TrainingsDateEnd {
+        right: 441px;
+        width: 208px;
+        top: 255px;
+    }
+
+    .Temp_17 .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+    }
+
+    .Temp_17 .Fullname {
+        top: 490px;
+        right: 129px;
+        font-size: 16px;
+    }
+
+    .Temp_17 .destination {
+        top: 528px;
+        right: 100px;
+    }
+
+    .Temp_17 .DepartmentTitle {
+        top: 528px;
+        right: 312px;
+    }
+
+    .Temp_17 .nationality {
+        top: 558px;
+        right: 95px;
+    }
+
+    .Temp_17 .DateOfBirth {
+        top: 558px;
+        right: 275px;
+    }
+
+    .Temp_17 .CIVILID {
+        top: 558px;
+        right: 545px;
+    }
+
+    .Temp_17 .EducationLevelTitle {
+        top: 590px;
+        right: 135px;
+    }
+
+    .Temp_17 .JobTitle {
+        top: 590px;
+        right: 646px;
+    }
+
+    .Temp_17 .Mobile {
+        top: 625px;
+        right: 390px;
+    }
+
+    .Temp_17 .HireDate {
+        top: 625px;
+        right: 120px;
+    }
+
+    .Temp_17 .Fax {
+        top: 625px;
+        right: 610px;
+    }
+
+    .Temp_17 .MainPhone {
+        top: 660px;
+        right: 210px;
+    }
+
+    .Temp_17 .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .Temp_17 .info {
+        top: 830px;
+        right: 30px;
+        width: 250px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .Temp_17 .Location {
+        top: 830px;
+        right: 320px;
+        width: 185px;
+    }
+
+    .Temp_17 .RegistrationDate {
+        top: 830px;
+        right: 601px;
+        width: 154px;
+    }
+
+
+/* ************************************************************
+    
+    Temp_15 - for Hayaa registration
+
+************************************************************ */
+.Temp_15 {
+    position: relative;
+}
+
+    .Temp_15 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_15 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+    }
+
+    .Temp_15 .OriginalTrainingID {
+        top: 607px;
+        right: 286px;
+    }
+
+    .Temp_15 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+        display: none;
+    }
+
+    .Temp_15 .Title {
+        top: 570px;
+        right: 288px;
+        width: 463px;
+    }
+
+    .Temp_15 .TrainingsDateStart {
+        right: 287px;
+        top: 650px;
+        font-size: 18px;
+        font-family: arial;
+    }
+
+    .Temp_15 .TrainingsDateEnd {
+        right: 380px;
+        top: 606px;
+    }
+
+    .Temp_15 .AuthorizedRegistrar {
+        top: 395px;
+        right: 267px;
+    }
+
+    .Temp_15 .Fullname {
+        top: 177px;
+        right: 229px;
+        font-size: 16px;
+    }
+
+    .Temp_15 .destination {
+        top: 149px;
+        right: 145px;
+    }
+
+    .Temp_15 .DepartmentManager {
+        top: 370px;
+        right: 214px;
+    }
+
+    .Temp_15 .ManagerjobTitle {
+        top: 404px;
+        right: 120px;
+    }
+
+    .Temp_15 .DepartmentTitle {
+        top: 259px;
+        right: 561px;
+    }
+
+    .Temp_15 .nationality {
+        top: 185px;
+        right: 597px;
+    }
+
+    .Temp_15 .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .Temp_15 .CIVILID {
+        top: 222px;
+        right: 160px;
+    }
+
+    .Temp_15 .EducationLevelTitle {
+        top: 293px;
+        right: 173px;
+    }
+
+    .Temp_15 .JobTitle {
+        top: 260px;
+        right: 189px;
+    }
+
+    .Temp_15 .Mobile {
+        top: 224px;
+        right: 584px;
+    }
+
+    .Temp_15 .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .Temp_15 .Fax {
+        top: 625px;
+        right: 610px;
+        display: none;
+    }
+
+    .Temp_15 .MainPhone {
+        top: 406px;
+        right: 554px;
+    }
+
+    .Temp_15 .Duties {
+        top: 330px;
+        right: 186px;
+        width: 555px;
+        height: 25px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .Temp_15 .info {
+        top: 830px;
+        right: 30px;
+        width: 250px;
+        height: 160px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_15 .Location {
+        top: 830px;
+        right: 320px;
+        width: 185px;
+        display: none;
+    }
+
+    .Temp_15 .RegistrationDate {
+        top: 830px;
+        right: 601px;
+        width: 154px;
+        display: none;
+    }
+
+
+/* ************************************************************
+    
+    Temp_16 - for Diwan registration
+
+************************************************************ */
+.Temp_16 {
+    position: relative;
+}
+
+    .Temp_16 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_16 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+        display: none;
+    }
+
+    .Temp_16 .country {
+        top: 219px;
+        right: 135px;
+    }
+
+    .Temp_16 .OriginalTrainingID {
+        top: 570px;
+        right: 185px;
+    }
+
+    .Temp_16 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+        display: none;
+    }
+
+    .Temp_16 .Title {
+        top: 472px;
+        right: 132px;
+    }
+
+    .Temp_16 .TrainingsDateStart {
+        right: 185px;
+        top: 498px;
+        font-size: 14px;
+    }
+
+    .Temp_16 .TrainingsDateEnd {
+        right: 385px;
+        top: 498px;
+        font-size: 14px;
+    }
+
+    .Temp_16 .AuthorizedRegistrar {
+        top: 246px;
+        right: 551px;
+    }
+
+    .Temp_16 .Fullname {
+        top: 303px;
+        right: 135px;
+    }
+
+    .Temp_16 .Fullname2 {
+        top: 625px;
+        right: 135px;
+        font-size: 15px;
+    }
+
+    .Temp_16 .destination {
+        top: 192px;
+        right: 135px;
+    }
+
+    .Temp_16 .DepartmentManager {
+        top: 340px;
+        right: 175px;
+    }
+
+    .Temp_16 .ManagerjobTitle {
+        top: 369px;
+        right: 114px;
+    }
+
+    .Temp_16 .DepartmentTitle {
+        top: 389px;
+        right: 158px;
+    }
+
+    .Temp_16 .nationality {
+        top: 327px;
+        right: 136px;
+    }
+
+    .Temp_16 .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .Temp_16 .CIVILID {
+        top: 362px;
+        right: 459px;
+        letter-spacing: 16px;
+    }
+
+    .Temp_16 .EducationLevelTitle {
+        top: 287px;
+        right: 151px;
+        display: none;
+    }
+
+    .Temp_16 .JobTitle {
+        top: 360px;
+        right: 163px;
+    }
+
+    .Temp_16 .Mobile {
+        top: 415px;
+        right: 125px;
+    }
+
+    .Temp_16 .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .Temp_16 .Fax {
+        top: 415px;
+        right: 466px;
+    }
+
+    .Temp_16 .MainPhone {
+        top: 220px;
+        right: 510px;
+    }
+
+    .Temp_16 .Duties {
+        top: 312px;
+        right: 165px;
+        width: 555px;
+        height: 25px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_16 .info {
+        top: 830px;
+        right: 30px;
+        width: 250px;
+        height: 160px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_16 .Location {
+        top: 830px;
+        right: 320px;
+        width: 185px;
+        display: none;
+    }
+
+    .Temp_16 .RegistrationDate {
+        right: 195px;
+        top: 687px;
+        font-size: 15px;
+    }
+
+/* ************************************************************
+    
+    Temp_18 - for the main registration
+
+************************************************************ */
+.Temp_18 {
+    position: relative;
+}
+
+    .Temp_18 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_18 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+    }
+
+    .Temp_18 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+    }
+
+    .Temp_18 .Price {
+        top: 292px;
+        right: 470px;
+        font-size: 15px;
+        display: none;
+    }
+
+    .Temp_18 .Title {
+        top: 195px;
+        right: 180px;
+    }
+
+    .Temp_18 .TrainingsDateStart {
+        top: 234px;
+        right: 250px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+
+    .Temp_18 .TrainingsDateEnd {
+        right: 386px;
+        top: 235px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+
+    .Temp_18 .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+    }
+
+    .Temp_18 .Fullname {
+        top: 341px;
+        right: 192px;
+        font-size: 16px;
+    }
+
+
+    .Temp_18 .Interval {
+        top: 231px;
+        right: 553px;
+        font-size: 16px
+    }
+
+
+    .Temp_18 .destination {
+        top: 445px;
+        right: 195px;
+    }
+
+    .Temp_18 .DepartmentTitle {
+        top: 444px;
+        right: 550px;
+    }
+
+    .Temp_18 .nationality {
+        top: 379px;
+        right: 550px;
+    }
+
+    .Temp_18 .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .Temp_18 .CIVILID {
+        top: 376px;
+        right: 191px;
+        font-size: 17px;
+    }
+
+    .Temp_18 .EducationLevelTitle {
+        top: 414px;
+        right: 195px;
+    }
+
+    .Temp_18 .JobTitle {
+        top: 413px;
+        right: 549px;
+    }
+
+    .Temp_18 .Mobile {
+        top: 477px;
+        right: 195px;
+        font-size: 15px;
+    }
+
+    .Temp_18 .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .Temp_18 .Fax {
+        top: 466px;
+        right: 540px;
+        font-size: 15px;
+    }
+
+    .Temp_18 .MainPhone {
+        top: 660px;
+        right: 210px;
+        display: none;
+    }
+
+    .Temp_18 .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_18 .info {
+        top: 536px;
+        right: 92px;
+        width: 625px;
+        height: 67px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .Temp_18 .Location {
+        top: 301px;
+        right: 187px;
+        width: 170px;
+    }
+
+    .Temp_18 .RegistrationDate {
+        top: 934px;
+        right: 520px;
+        width: 185px;
+    }
+
+    .Temp_18 .EnglishSkillExcellent {
+        top: 621px;
+        right: 631px;
+        width: 48px;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .Temp_18 .EnglishSkillVeryGood {
+        top: 621px;
+        right: 492px;
+        width: 48px;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .Temp_18 .EnglishSkillGood {
+        top: 621px;
+        right: 358px;
+        width: 48px;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .Temp_18 .EnglishSkillWeek {
+        top: 622px;
+        right: 239px;
+        width: 48px;
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .Temp_18 .Category19 {
+        top: 264px;
+        right: 130px;
+        text-align: center;
+        font-size: 34px;
+        display: block;
+        height: 25px;
+        width: 25px;
+        border: 3px solid #000000 !important;
+    }
+
+    .Temp_18 .Category20 {
+        top: 264px;
+        right: 166px;
+        text-align: center;
+        font-size: 34px;
+        display: block;
+        height: 25px;
+        width: 44px;
+        border: 3px solid #000000 !important;
+    }
+
+    .Temp_18 .Category21 {
+        top: 264px;
+        right: 223px;
+        text-align: center;
+        font-size: 34px;
+        display: block;
+        height: 25px;
+        width: 46px;
+        border: 3px solid #000000 !important;
+    }
+
+    .Temp_18 .Category22 {
+        top: 264px;
+        right: 285px;
+        text-align: center;
+        font-size: 34px;
+        display: block;
+        height: 25px;
+        width: 44px;
+        border: 3px solid #000000 !important;
+    }
+
+    .Temp_18 .Category23 {
+        top: 264px;
+        right: 340px;
+        text-align: center;
+        font-size: 34px;
+        display: block;
+        height: 25px;
+        width: 64px;
+        border: 3px solid #000000 !important;
+    }
+
+
+/* ************************************************************
+    
+    Temp_19 - for CAIT
+
+************************************************************ */
+
+/* ************************************************************
+    
+    Temp_19 - for CAIT
+
+************************************************************ */
+.Temp_19 {
+    position: relative;
+}
+
+    .Temp_19 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_19 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+    }
+
+    .Temp_19 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+    }
+
+    .Temp_19 .Price {
+        top: 292px;
+        right: 470px;
+        font-size: 15px;
+        display: none
+    }
+
+    .Temp_19 .Title {
+        top: 208px;
+        right: 297px;
+        display: block;
+        width: 440px;
+    }
+
+    .Temp_19 .MorningTime {
+        top: 240px;
+        right: 515px;
+        font-size: 22px;
+        display: none;
+    }
+
+    .Temp_19 .EvningTime {
+        top: 240px;
+        right: 600px;
+        font-size: 22px;
+    }
+
+
+    .Temp_19 .TrainingsDateStart {
+        top: 230px;
+        right: 162px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+
+    .Temp_19 .TrainingsDateEnd {
+        top: 229px;
+        right: 286px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+
+    .Temp_19 .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+    }
+
+    .Temp_19 .Fullname {
+        top: 274px;
+        right: 146px;
+        font-size: 16px;
+    }
+
+    .Temp_19 .Interval {
+        top: 235px;
+        right: 522px;
+        font-size: 16px;
+    }
+
+    .Temp_19 .destination {
+        top: 359px;
+        right: 148px;
+    }
+
+    .Temp_19 .DepartmentTitle {
+        top: 357px;
+        right: 450px;
+    }
+
+    .Temp_19 .nationality {
+        top: 305px;
+        right: 643px;
+    }
+
+    .Temp_19 .gender {
+        top: 305px;
+        right: 523px;
+    }
+
+    .Temp_19 .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .Temp_19 .CIVILID {
+        top: 300px;
+        right: 148px;
+        font-size: 16px;
+        letter-spacing: 15.9px;
+    }
+
+    .Temp_19 .EducationLevelTitle {
+        top: 334px;
+        right: 150px;
+    }
+
+    .Temp_19 .JobTitle {
+        top: 385px;
+        right: 149px;
+    }
+
+    .Temp_19 .Mobile {
+        top: 433px;
+        right: 369px;
+        font-size: 15px;
+    }
+
+    .Temp_19 .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .Temp_19 .Fax {
+        top: 446px;
+        right: 623px;
+        font-size: 15px;
+    }
+
+    .Temp_19 .MainPhone {
+        top: 660px;
+        right: 210px;
+        display: none;
+    }
+
+    .Temp_19 .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_19 .Email {
+        top: 434px;
+        right: 547px;
+        font-size: 14px;
+    }
+
+    .Temp_19 .info {
+        top: 565px;
+        right: 63px;
+        width: 675px;
+        height: 67px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .Temp_19 .Location {
+        top: 293px;
+        right: 185px;
+        width: 170px;
+        display: none;
+    }
+
+    .Temp_19 .RegistrationDate {
+        top: 934px;
+        right: 520px;
+        width: 185px;
+        display: none;
+    }
+
+    .Temp_19 .EnglishSkillExcellent {
+        top: 485px;
+        right: 559px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishSkillVeryGood {
+        top: 485px;
+        right: 437px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishSkillGood {
+        top: 485px;
+        right: 343px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishSkillWeek {
+        top: 484px;
+        right: 238px;
+        width: 47px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishWritngSkillExcellent {
+        top: 506px;
+        right: 559px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishWritngSkillVeryGood {
+        top: 505px;
+        right: 437px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishWritngSkillGood {
+        top: 505px;
+        right: 343px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .EnglishWritngSkillWeek {
+        top: 505px;
+        right: 237px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px
+    }
+
+    .Temp_19 .TrainingType8 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType9 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType10 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType3 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType4 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType28 {
+        top: 228px;
+        right: 601px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType29 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType39 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType40 {
+        top: 228px;
+        right: 696px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType41 {
+        top: 228px;
+        right: 532px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_19 .TrainingType41 {
+        top: 228px;
+        right: 532px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+/* ************************************************************
+    
+    Temp_32 - for Arab Plainig Institute
+
+************************************************************ */
+.Temp_32 {
+    position: relative;
+}
+
+    .Temp_32 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_32 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+    }
+
+    .Temp_32 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+    }
+
+    .Temp_32 .Price {
+        top: 292px;
+        right: 470px;
+        font-size: 15px;
+        display: none
+    }
+
+    .Temp_32 .Title {
+        top: 186px;
+        right: 213px;
+        font-size: 14px;
+        width: 498px;
+        overflow: hidden;
+        height: 27px;
+    }
+
+    .Temp_32 .MorningTime {
+        top: 572px;
+        right: 515px;
+        font-size: 22px;
+        display: none;
+    }
+
+    .Temp_32 .EvningTime {
+        top: 240px;
+        right: 600px;
+        font-size: 22px;
+    }
+
+
+    .Temp_32 .TrainingsDateStart {
+        top: 239px;
+        right: 159px;
+        letter-spacing: 0px;
+        font-size: 16px;
+        display: none;
+    }
+
+    .Temp_32 .TrainingsDateEnd {
+        top: 240px;
+        right: 320px;
+        letter-spacing: 0px;
+        font-size: 16px;
+        display: none;
+    }
+
+    .Temp_32 .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+    }
+
+    .Temp_32 .Fullname {
+        top: 286px;
+        right: 218px;
+        font-size: 15px;
+    }
+
+    .Temp_32 .FullnameEn {
+        top: 312px;
+        right: 219px;
+        font-size: 15px;
+    }
+
+    .Temp_32 .Interval {
+        top: 235px;
+        right: 522px;
+        font-size: 16px;
+    }
+
+    .Temp_32 .destination {
+        top: 796px;
+        right: 219px;
+    }
+
+    .Temp_32 .DepartmentTitle {
+        top: 817px;
+        right: 217px;
+    }
+
+    .Temp_32 .DirectManager {
+        top: 839px;
+        right: 218px;
+        display: none;
+    }
+
+    .Temp_32 .Email {
+        top: 391px;
+        right: 405px;
+    }
+
+    .Temp_32 .DateOfBirth {
+        top: 366px;
+        right: 214px;
+    }
+
+    .Temp_32 .Age {
+        top: 367px;
+        right: 406px;
+    }
+
+
+    .Temp_32 .nationality {
+        top: 340px;
+        right: 219px;
+    }
+
+    .Temp_32 .gender {
+        top: 341px;
+        right: 406px;
+    }
+
+    .Temp_32 .CIVILID {
+        top: 314px;
+        right: 132px;
+        font-size: 16px;
+        letter-spacing: 13.7px;
+        display: none;
+    }
+
+    .Temp_32 .EducationLevelTitle {
+        top: 469px;
+        right: 235px;
+    }
+
+    .Temp_32 .JobTitle {
+        top: 819px;
+        right: 541px;
+        font-size: 10px;
+        display: none;
+    }
+
+    .Temp_32 .Mobile {
+        top: 391px;
+        right: 215px;
+        font-size: 14px;
+    }
+
+    .Temp_32 .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .Temp_32 .Fax {
+        top: 446px;
+        right: 623px;
+        font-size: 15px;
+        display: none;
+    }
+
+    .Temp_32 .MainPhone {
+        top: 660px;
+        right: 210px;
+        display: none;
+    }
+
+    .Temp_32 .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_32 .info {
+        top: 600px;
+        right: 46px;
+        width: 675px;
+        height: 67px;
+        display: block;
+        overflow: hidden;
+        display: none;
+    }
+
+    .Temp_32 .Location {
+        top: 293px;
+        right: 185px;
+        width: 170px;
+        display: none;
+    }
+
+    .Temp_32 .RegistrationDate {
+        top: 934px;
+        right: 520px;
+        width: 185px;
+        display: none;
+    }
+
+    .Temp_32 .SPSSExcellent {
+        top: 569px;
+        right: 338px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .SPSSGood {
+        top: 575px;
+        right: 436px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .SPSSWeek {
+        top: 575px;
+        right: 598px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .EviewsExcellent {
+        top: 604px;
+        right: 319px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .EviewsGood {
+        top: 604px;
+        right: 437px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .EviewsWeek {
+        top: 603px;
+        right: 598px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .STATAExcellent {
+        top: 634px;
+        right: 320px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .STATAGood {
+        top: 633px;
+        right: 435px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .STATAWeek {
+        top: 633px;
+        right: 598px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .ExcelExcellent {
+        top: 693px;
+        right: 242px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .ExcelGood {
+        top: 716px;
+        right: 325px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .ExcelWeek {
+        top: 716px;
+        right: 529px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .OtherpplicationExcellent {
+        top: 744px;
+        right: 232px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .OtherpplicationGood {
+        top: 744px;
+        right: 326px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_32 .OtherpplicationWeek {
+        top: 745px;
+        right: 529px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+/* ************************************************************
+    
+    ApologyFrom - for the  Apology From
+
+************************************************************ */
+.ApologyFrom {
+    position: relative;
+}
+
+    .ApologyFrom span {
+        display: block;
+        position: absolute;
+    }
+
+    .ApologyFrom .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+        display: none;
+    }
+
+    .ApologyFrom .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+        display: none;
+    }
+
+    .ApologyFrom .Title {
+        top: 242px;
+        right: 170px;
+        width: 554px;
+        overflow: hidden;
+        height: 22px;
+    }
+
+    .ApologyFrom .TrainingsDateStart {
+        top: 347px;
+        right: 395px;
+        min-width: 130px;
+    }
+
+    .ApologyFrom .TrainingsDateEnd {
+        right: 560px;
+        top: 348px;
+        min-width: 130px;
+    }
+
+    .ApologyFrom .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+        display: none;
+    }
+
+    .ApologyFrom .Fullname {
+        top: 792px;
+        right: 175px;
+        font-size: 16px;
+    }
+
+    .ApologyFrom .destination {
+        top: 828px;
+        right: 175px;
+    }
+
+    .ApologyFrom .DepartmentTitle {
+        top: 827px;
+        right: 392px;
+    }
+
+        .ApologyFrom .DepartmentTitle::before {
+            content: '   -';
+        }
+
+    .ApologyFrom .CancellationReasons {
+        top: 426px;
+        right: 85px;
+        width: 618px;
+        height: 366px;
+        overflow: hidden;
+        line-height: 21px
+    }
+
+    .ApologyFrom .Location {
+        top: 267px;
+        right: 170px;
+    }
+
+
+    .ApologyFrom .TargetedAudience {
+        top: 320px;
+        right: 175px
+    }
+
+
+
+    .ApologyFrom .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .ApologyFrom .CIVILID {
+        top: 558px;
+        right: 545px;
+        display: none;
+    }
+
+    .ApologyFrom .EducationLevelTitle {
+        top: 590px;
+        right: 135px;
+        display: none;
+    }
+
+    .ApologyFrom .JobTitle {
+        top: 855px;
+        right: 175px
+    }
+
+    .ApologyFrom .Mobile {
+        top: 855px;
+        right: 516px;
+    }
+
+    .ApologyFrom .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .ApologyFrom .Fax {
+        top: 625px;
+        right: 610px;
+        display: none;
+    }
+
+    .ApologyFrom .MainPhone {
+        top: 855px;
+        right: 520px;
+        display: none;
+    }
+
+    .ApologyFrom .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .ApologyFrom .info {
+        top: 830px;
+        right: 30px;
+        width: 250px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+    }
+
+
+
+    .ApologyFrom .CancellationDate {
+        top: 887px;
+        right: 176px;
+    }
+
+    .ApologyFrom .NumberOfDays {
+        top: 348px;
+        right: 176px;
+    }
+
+/* ************************************************************
+    
+    TrainingRating - for the  Training Rating From
+
+************************************************************ */
+.TrainingRating {
+    position: relative;
+}
+
+    .TrainingRating span {
+        display: block;
+        position: absolute;
+    }
+
+    .TrainingRating .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+        display: none;
+    }
+
+    .TrainingRating .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+        display: none;
+    }
+
+    .TrainingRating .Title {
+        top: 404px;
+        right: 182px;
+        width: 554px;
+        overflow: hidden;
+        height: 22px;
+    }
+
+    .TrainingRating .TrainingsDateStart {
+        top: 511px;
+        right: 340px;
+        min-width: 130px;
+        white-space: nowrap;
+    }
+
+    .TrainingRating .TrainingsDateEnd {
+        right: 570px;
+        top: 512px;
+        min-width: 130px;
+        white-space: nowrap;
+    }
+
+    .TrainingRating .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+        display: none;
+    }
+
+    .TrainingRating .Fullname {
+        top: 236px;
+        right: 132px;
+        font-size: 16px;
+    }
+
+    .TrainingRating .destination {
+        top: 828px;
+        right: 175px;
+        display: none;
+    }
+
+    .TrainingRating .DepartmentTitle {
+        top: 270px;
+        right: 95px;
+    }
+
+
+    .TrainingRating .CancellationReasons {
+        top: 426px;
+        right: 85px;
+        width: 618px;
+        height: 366px;
+        overflow: hidden;
+        line-height: 21px
+    }
+
+    .TrainingRating .TargetedAudience {
+        top: 267px;
+        right: 170px;
+    }
+
+    .TrainingRating .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .TrainingRating .CIVILID {
+        top: 558px;
+        right: 545px;
+        display: none;
+    }
+
+    .TrainingRating .EducationLevelTitle {
+        top: 590px;
+        right: 135px;
+        display: none;
+    }
+
+    .TrainingRating .JobTitle {
+        top: 296px;
+        right: 160px;
+    }
+
+    .TrainingRating .Mobile {
+        top: 298px;
+        right: 516px;
+    }
+
+    .TrainingRating .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .TrainingRating .Fax {
+        top: 625px;
+        right: 610px;
+        display: none;
+    }
+
+    .TrainingRating .MainPhone {
+        top: 855px;
+        right: 520px;
+        display: none;
+    }
+
+    .TrainingRating .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .TrainingRating .info {
+        top: 830px;
+        right: 30px;
+        width: 250px;
+        height: 160px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .TrainingRating .Location {
+        top: 430px;
+        right: 155px;
+    }
+
+    .TrainingRating .RegistrationDate {
+        top: 323px;
+        right: 108px;
+    }
+
+    .TrainingRating .NumberOfDays {
+        top: 511px;
+        right: 136px;
+    }
+
+    .TrainingRating .Lecturer {
+        top: 485px;
+        right: 580px;
+    }
+
+    .TrainingRating .TargetedAudience {
+        top: 457px;
+        right: 605px;
+    }
+
+    .TrainingRating .TrainingGoals {
+        top: 672px;
+        right: 75px;
+        width: 647px;
+        height: 108px;
+        overflow: hidden;
+    }
+
+    .TrainingRating .TrainingBenefits {
+        top: 807px;
+        right: 75px;
+        width: 647px;
+        height: 108px;
+        overflow: hidden;
+    }
+
+    .TrainingRating .TrainingOpinion {
+        top: 939px;
+        right: 73px;
+        width: 647px;
+        height: 138px;
+        overflow: hidden;
+    }
+
+    .TrainingRating .Type1 {
+        top: 375px;
+        right: 195px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .Type2 {
+        top: 375px;
+        right: 302px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .Type3 {
+        top: 375px;
+        right: 415px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .Type4 {
+        top: 375px;
+        right: 525px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .Type5 {
+        top: 375px;
+        right: 635px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+
+    .TrainingRating .TrainingRating11 {
+        top: 537px;
+        right: 274px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .TrainingRating12 {
+        top: 537px;
+        right: 420px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .TrainingRating13 {
+        top: 537px;
+        right: 569px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .TrainingRating14 {
+        top: 537px;
+        right: 715px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+
+    .TrainingRating .LocationRating11 {
+        top: 591px;
+        right: 274px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .LocationRating12 {
+        top: 591px;
+        right: 420px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .LocationRating13 {
+        top: 591px;
+        right: 569px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .LocationRating14 {
+        top: 591px;
+        right: 715px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+
+    .TrainingRating .LecturerRating11 {
+        top: 565px;
+        right: 274px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .LecturerRating12 {
+        top: 565px;
+        right: 420px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .LecturerRating13 {
+        top: 565px;
+        right: 569px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .TrainingRating .LecturerRating14 {
+        top: 565px;
+        right: 715px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+
+/* ************************************************************
+    
+    Temp_42 - for CAIT
+
+************************************************************ */
+.Temp_42 {
+    position: relative;
+}
+
+    .Temp_42 span {
+        display: block;
+        position: absolute;
+    }
+
+    .Temp_42 .BookNumber {
+        top: 189px;
+        right: 174px;
+        width: 194px;
+    }
+
+    .Temp_42 .BookDate {
+        top: 187px;
+        right: 426px;
+        width: 154px;
+    }
+
+    .Temp_42 .Price {
+        top: 292px;
+        right: 470px;
+        font-size: 15px;
+        display: none
+    }
+
+    .Temp_42 .Title {
+        top: 187px;
+        right: 171px;
+        display: block;
+        width: 572px;
+    }
+
+    .Temp_42 .MorningTime {
+        top: 214px;
+        right: 507px;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EvningTime {
+        top: 213px;
+        right: 590px;
+        font-size: 22px;
+    }
+
+    .Temp_42 .ExecutingAgency {
+        top: 270px;
+        right: 125px;
+        font-size: 13px;
+    }
+
+    .Temp_42 .TrainingsDateStart {
+        top: 211px;
+        right: 230px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+
+    .Temp_42 .TrainingsDateEnd {
+        top: 211px;
+        right: 355px;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+
+    .Temp_42 .AuthorizedRegistrar {
+        top: 374px;
+        right: 573px;
+        width: 177px;
+    }
+
+    .Temp_42 .Fullname {
+        top: 295px;
+        right: 120px;
+        font-size: 16px;
+    }
+
+    .Temp_42 .Interval {
+        top: 235px;
+        right: 522px;
+        font-size: 16px;
+    }
+
+    .Temp_42 .destination {
+        top: 415px;
+        right: 126px;
+    }
+
+    .Temp_42 .DepartmentTitle {
+        top: 386px;
+        right: 465px;
+    }
+
+    .Temp_42 .nationality {
+        top: 329px;
+        right: 616px;
+    }
+
+    .Temp_42 .gender {
+        top: 329px;
+        right: 467px;
+    }
+
+    .Temp_42 .DateOfBirth {
+        top: 558px;
+        right: 275px;
+        display: none;
+    }
+
+    .Temp_42 .CIVILID {
+        top: 323px;
+        right: 118px;
+        font-size: 18px;
+        letter-spacing: 3.9px;
+    }
+
+    .Temp_42 .EducationLevelTitle {
+        top: 386px;
+        right: 131px;
+    }
+
+    .Temp_42 .JobTitle {
+        top: 358px;
+        right: 142px;
+    }
+
+    .Temp_42 .Mobile {
+        top: 439px;
+        right: 125px;
+        font-size: 15px;
+    }
+
+    .Temp_42 .HireDate {
+        top: 625px;
+        right: 120px;
+        display: none;
+    }
+
+    .Temp_42 .Fax {
+        top: 446px;
+        right: 623px;
+        font-size: 15px;
+    }
+
+    .Temp_42 .MainPhone {
+        top: 660px;
+        right: 210px;
+        display: none;
+    }
+
+    .Temp_42 .Duties {
+        top: 695px;
+        right: 210px;
+        width: 545px;
+        height: 83px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_42 .Email {
+        top: 434px;
+        right: 547px;
+        font-size: 14px;
+        display: none;
+    }
+
+    .Temp_42 .info {
+        top: 565px;
+        right: 63px;
+        width: 675px;
+        height: 67px;
+        display: none;
+        overflow: hidden;
+    }
+
+    .Temp_42 .Location {
+        top: 293px;
+        right: 185px;
+        width: 170px;
+        display: none;
+    }
+
+    .Temp_42 .RegistrationDate {
+        top: 934px;
+        right: 520px;
+        width: 185px;
+        display: none;
+    }
+
+    .Temp_42 .EnglishSkillExcellent {
+        top: 498px;
+        right: 628px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishSkillVeryGood {
+        top: 498px;
+        right: 556px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishSkillGood {
+        top: 498px;
+        right: 508px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishSkillWeek {
+        top: 498px;
+        right: 444px;
+        width: 47px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishWritngSkillExcellent {
+        top: 527px;
+        right: 625px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishWritngSkillVeryGood {
+        top: 527px;
+        right: 551px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishWritngSkillGood {
+        top: 527px;
+        right: 503px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .EnglishWritngSkillWeek {
+        top: 527px;
+        right: 440px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType8 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType9 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType10 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType3 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType4 {
+        top: 240px;
+        right: 286px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+        display: none;
+    }
+
+    .Temp_42 .TrainingType28 {
+        top: 228px;
+        right: 601px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType29 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType39 {
+        top: 228px;
+        right: 480px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType40 {
+        top: 228px;
+        right: 696px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType41 {
+        top: 228px;
+        right: 532px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .Temp_42 .TrainingType41 {
+        top: 228px;
+        right: 532px;
+        width: 48px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+    .Temp_42 .Category19 {
+        top: 241px;
+        right: 200px;
+        text-align: center;
+        font-size: 23px;
+        display: block;
+    }
+
+    .Temp_42 .Category20 {
+        top: 241px;
+        right: 251px;
+        text-align: center;
+        font-size: 23px;
+        display: block;
+    }
+
+    .Temp_42 .Category21 {
+        top: 241px;
+        right: 316px;
+        text-align: center;
+        font-size: 23px;
+        display: block;
+    }
+
+    .Temp_42 .Category22 {
+        top: 241px;
+        right: 385px;
+        text-align: center;
+        font-size: 23px;
+        display: block;
+    }
+
+    .Temp_42 .Category23 {
+        top: 241px;
+        right: 448px;
+        text-align: center;
+        font-size: 23px;
+        display: block;
+    }

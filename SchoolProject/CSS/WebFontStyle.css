@@ -1,0 +1,82 @@
+/*
+Created by: Mahmoud Elmoghazy
+Date: 2017
+Mail: mahmoud.abdallah@outlook.com
+www.apnpx.com
+*/
+
+
+/*
+Arabic
+Cairo
+
+English 
+Exo - look like alian 
+hammersmith one - bold soft 
+handlee - funcy handwriting 
+indie flower - handwriting more fancy 
+san fransisco - apple font 
+shadows into light - very nice handwriting 
+Ubuntu - nice font
+*/
+
+.testFont {
+    font-family: Exo-black;
+    font-size: 30px;
+}
+
+
+/* Arabic Font Family - Cairo*/
+
+@font-face {
+    font-family: Cairo-Black;
+    Src: url(../Fonts/Cairo/Cairo-Black.ttf);
+}
+
+@font-face {
+    font-family: Cairo-Bold;
+    Src: url(../Fonts/Cairo/Cairo-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cairo-ExtraLight;
+    Src: url(../Fonts/Cairo/Cairo-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Cairo-Light;
+    Src: url(../Fonts/Cairo/Cairo-Light.ttf);
+}
+
+@font-face {
+    font-family: Cairo-Regular;
+    Src: url(../Fonts/Cairo/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cairo-SemiBold;
+    Src: url(../Fonts/Cairo/Cairo-SemiBold.ttf);
+}
+
+
+/*English Family Font*/
+
+@font-face {
+    font-family: Exo-Black;
+    src: url(../Fonts/Exo/Exo-Black.ttf);
+}
+
+@font-face {
+    font-family: Exo-Black;
+    src: url(../Fonts/Exo/Exo-Black.ttf);
+}
+
+@font-face {
+    font-family: Exo-Black;
+    src: url(../Fonts/Exo/Exo-Black.ttf);
+}
+
+@font-face {
+    font-family: Exo-Black;
+    src: url(../Fonts/Exo/Exo-Black.ttf);
+}

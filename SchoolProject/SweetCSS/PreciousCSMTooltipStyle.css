@@ -1,0 +1,35 @@
+﻿/*---------------------------------------------------------------------------------------
+Precious CSM ToolTip Style
+Creted by: Mahmoud Abdallah
+Developers Studio
+www.dvstudio.us
+mahmoud@dvstudio.com
+Oct 2013
+---------------------------------------------------------------------------------------*/
+
+.tooltip {
+    display:inline;
+    position:relative;
+}
+    .tooltip:hover:after {
+        background:#333;
+        border-radius:5px;
+        bottom:26px;
+        content:attr(tip);
+        left:20%;
+        padding:5px 15px;
+        position:absolute;
+        z-index:98;
+        width:220px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    .tooltip:hover:before {
+        border:solid;
+        border-color:#333 transparent;
+        border-width:6px 6px 0px 6px;
+        bottom:20px;
+        content:"";
+        left:50%;
+        position:absolute;
+        z-index:99;
+    }

@@ -1,0 +1,224 @@
+﻿/*---------------------------------------------------------------------------------------
+Precious CMS Style
+Creted by: Mahmoud Abdallah
+Developers Studio
+www.dvstudio.us
+mahmoud@dvstudio.com
+Oct 2013
+---------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------
+CSM main page
+---------------------------------------------------------------------------------------*/
+body {
+    margin: 0px 0px 0px 0px;
+    font-family: Calibri;
+    font-size: 12pt;
+}
+
+.mainTable {
+    margin: 0px 0px 0px 0px;
+    border-width: 0px;
+    width: 100%;
+}
+/*this is the top banner inclouding the clock, user name, logout and search pages*/
+.TopBanner {
+    height: 30px;
+    border-width: 0px;
+    background-color: #1a1717;
+    font-family: Calibri;
+    color: white;
+    font-size: 12pt;
+}
+
+.CMSLogo {
+    height: 80px;
+    border-width: 0px;
+    background-image: url('../images/CMSBannerBg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: Calibri;
+    font-size: 20pt;
+    color: white;
+    word-wrap: break-word;
+}
+
+.CopyRights {
+    height: 40px;
+    border-width: 0px;
+    background-color: #f1f2f2;
+    font-family: Calibri;
+    font-size: 10pt;
+    color: #1189e2;
+}
+
+.Version {
+    font-family: Calibri;
+    font-size: 8pt;
+    color: #007acc;
+    text-align: right;
+}
+
+.button {
+    background-color: gray;
+    font-family: Calibri;
+    font-size: 11pt;
+    text-align: center;
+    color: white;
+    border: 0;
+    width: 55px;
+    height: 20px;
+    border-radius: 6px 6px;
+}
+
+    .button:hover {
+        background-color: #b6ff00;
+        color: #002d62;
+    }
+
+.text_box {
+    border-radius: 6px 6px;
+    border: 0px;
+}
+
+.CSMMainButtons {
+    background-color: #b6ff00;
+    font-family: Calibri;
+    font-size: 14pt;
+    text-align: left;
+    color: #2c2b2b;
+    border: 0;
+    width: 200px;
+    height: 40px;
+    padding: 3px 3px 3px 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: center;
+    border-radius: 6px 6px;
+}
+
+    .CSMMainButtons:hover {
+        background-color: #dbdbdb;
+        color: #002d62;
+    }
+
+    .CSMMainButtons:active {
+        background-color: #ffd800;
+        color: #002d62;
+    }
+
+    .CSMMainButtons:disabled {
+        background-color: #dedede;
+        color: white;
+    }
+
+.CSMContent {
+    border-color: #007acc;
+    border-width: 7px;
+    border-style: solid;
+}
+
+.TabLanBtn {
+    background-color: #ffd800;
+    font-family: Calibri;
+    font-size: 14pt;
+    text-align: center;
+    color: #2c2b2b;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px;
+}
+
+    .TabLanBtn:hover {
+        background-color: #b6ff00;
+        color: #002d62;
+    }
+
+    .TabLanBtn:active {
+        background-color: #808080;
+        color: white;
+    }
+
+    .TabLanBtn:focus {
+        background-color: #808080;
+        color: white;
+    }
+
+    .TabLanBtn:disabled {
+        background-color: #dedede;
+        color: white;
+    }
+
+.FunctionBtns {
+    width: 50px;
+    height: 50px;
+    background-color: #ffd800;
+    border: 0;
+    /*padding: 3px 3px 3px 50px;
+    margin-left: 1%;
+    margin-right: 1%;*/
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 50px 50px;
+}
+
+    .FunctionBtns:hover {
+        background-color: #b6ff00;
+        color: #002d62;
+    }
+
+    .FunctionBtns:focus {
+        background-color: #808080;
+        color: white;
+    }
+
+    .FunctionBtns:active {
+        background-color: #808080;
+        color: white;
+    }
+
+    .FunctionBtns:disabled {
+        background-color: #dedede;
+        color: white;
+    }
+
+
+.SettingsTitle {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25pt;
+    text-align: left;
+    background-color: #007acc;
+    vertical-align: top;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.SettingsLables {
+    font-family: Calibri;
+    font-size: 15px;
+    color: #002d62;
+    background-color: transparent;
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+.SettingsTextBox {
+    border-radius: 4px 4px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #002d62;
+}
+.footer {
+    width:100%;
+    /*margin-top: 3px;*/
+    /*display: inline-block;*/
+    position:fixed;
+    /*z-index: 1;*/
+}

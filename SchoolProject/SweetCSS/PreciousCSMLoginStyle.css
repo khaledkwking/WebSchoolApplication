@@ -1,0 +1,63 @@
+﻿/*---------------------------------------------------------------------------------------
+Precious CMS Login Style
+Creted by: Mahmoud Abdallah
+Developers Studio
+www.dvstudio.us
+mahmoud@dvstudio.com
+Oct 2013
+---------------------------------------------------------------------------------------*/
+
+body {
+    background-image: url('../images/Climbing-Mountains-l.jpg');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-left: 130px;
+    margin-right: 0px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.button {
+    background-color: #b6ff00;
+    font-family: Calibri;
+    font-size: 13pt;
+    color: #002d62;
+    border: 0px;
+    width: 70px;
+    border-radius: 20px 20px;
+}
+
+.text {
+    font-family: Calibri;
+    font-size: 12pt;
+    color: #002d62;
+}
+
+.text_box {
+    border-radius: 6px 6px;
+    border: 1px;
+    border-color: #002d62;
+    border-style: solid;
+}
+
+.error {
+    background-color: red;
+    font-family: Calibri;
+    font-size: 13pt;
+    color: white;
+    text-align: center;
+    border-radius: 6px 6px;
+}
+
+.Table {
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px 20px;
+}
+
+.loginTxt {
+    font-family: Calibri;
+    font-size: 40pt;
+    color: #808080;
+}

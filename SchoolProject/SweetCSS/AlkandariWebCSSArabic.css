@@ -1,0 +1,312 @@
+﻿/* 
+Client: Alkandari Lawfirm Website.
+By: Developers Studio
+Created by: Mahmoud Abdallah
+Email: mahmoud@dvstudio.us
+*/
+
+/*website color coding
+    too dark brown #503018
+brown #603913
+light brown #754c24
+light light brown #8c6239
+gold #b1912e*/
+
+/*Default web page*/
+.body {
+    margin: 0px 0px 0px 0px;
+    /*background-color:#422105;*/
+    background-image: url('brownbg.jpg');
+}
+
+.MainTable {
+    width: 1024px;
+    background-color: #503018;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px;
+    direction: rtl;
+}
+
+.DesignTable {
+    width: 1024px;
+    background-color: #503018;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px;
+    direction: rtl;
+}
+
+.Menu {
+    background-color: #b1912e;
+    height: 35px;
+}
+
+.TextBox {
+    width: 200px;
+    height: 22px;
+    border: 1px;
+    border-color: #b1912e;
+    border-radius: 15px 15px;
+    border-style: solid;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 12pt;
+    color: white;
+}
+
+.SearchButton {
+    background-color: #503018;
+    font-family: Arial;
+    font-size: 12pt;
+    text-align: left;
+    color: #b1912e;
+    border: 1px;
+    border-color: #b1912e;
+    border-style: solid;
+    width: 32px;
+    height: 32px;
+    /*padding: 3px 3px 3px 50px;*/
+    /*margin-left: 1%;
+    margin-right: 1%;*/
+    background-repeat: no-repeat;
+    /*background-position-x: 5%;*/
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20px 20px;
+}
+
+    .SearchButton:hover {
+        background-color: #b1912e;
+    }
+
+    .SearchButton:focus {
+        background-color: #b1912e;
+    }
+
+.buttonsIcon {
+    background-color: #b1912e;
+    font-family: Arial;
+    font-size: 12pt;
+    text-align: right;
+    color: #b1912e;
+    border: 1px;
+    border-color: #b1912e;
+    border-style: solid;
+    width: 32px;
+    height: 32px;
+    /*padding: 3px 3px 3px 50px;*/
+    /*margin-left: 1%;
+    margin-right: 1%;*/
+    background-repeat: no-repeat;
+    /*background-position-x: 5%;*/
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 20px 20px;
+}
+
+.buttons {
+    width: 90px;
+    background-color: transparent;
+    border: 0px;
+    font-family: Arial;
+    font-size: 12pt;
+    text-align: right;
+    color: #b1912e;
+}
+
+    .buttons:hover {
+        font-family: Arial;
+        font-size: 12pt;
+        text-align: right;
+        color: white;
+    }
+
+    .Buttons:focus {
+        font-family: Arial;
+        font-size: 12pt;
+        text-align: right;
+        color: white;
+    }
+
+.LanguagesDropDown {
+    width: 50px;
+    /*height: 30px;*/
+    border: 0px;
+    /*border-color: #b1912e;*/
+    /*border-radius: 15px 15px;*/
+    border-style: solid;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 12pt;
+    color: #b1912e;
+}
+
+.WelcomeAndWhyTite {
+    font-family: Arial;
+    font-size: 20pt;
+    color: #b1912e;
+}
+
+.HomePageWelcomeTable {
+    width: 1024px;
+    background-color: #503018;
+}
+
+.Text {
+    font-family: Arial;
+    font-size: 13pt;
+    color: #b1912e;
+}
+
+.TextWhite {
+    font-family: Arial;
+    font-size: 13pt;
+    color: white;
+}
+
+.NewsTitle {
+    padding-right: 10px;
+    background-color: #b1702e;
+    text-align: right;
+    font-family: Arial;
+    font-size: 18pt;
+    color: white;
+    <td bgcolor="#f1f1f1">;
+}
+
+.NewsSection {
+    padding-right: 10px;
+    background-color: #f1f1f1;
+    text-align: right;
+    font-family: Arial;
+    font-size: 13pt;
+    color: #503018;
+}
+
+HomePage3Sections {
+    width: 310px;
+    border-left: solid;
+    border-left-color: #503018;
+    border-left-width: 0.5px;
+}
+
+.SectionsTitle {
+    width: 309px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 20pt;
+    text-align: right;
+    padding-right: 10px;
+    color: #b1912e;
+    background-color: #503018;
+    border-bottom-right-radius: 15px;
+}
+
+.SectionsMessage {
+    width: 309px;
+    font-family: Arial;
+    font-size: 11pt;
+    text-align: right;
+    padding-right: 10px;
+    color: #503018;
+}
+
+.rights {
+    font-family: Arial;
+    font-size: 10pt;
+    text-align: right;
+    color: #503018;
+    text-align: right;
+}
+
+/*CSS for Topic Pages---------------------------------------------------------------*/
+.TopicPageMainTable {
+    background-color: white;
+}
+
+.TopicPageTitle {
+    height: 40px;
+    font-family: Arial;
+    font-size: 20pt;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: #b1912e;
+    background-color: #503018;
+    border-bottom-right-radius: 15px;
+}
+
+.TopicPageTopicDetails {
+    font-family: Arial;
+    font-size: 11pt;
+    text-align: right;
+    padding-right: 10px;
+    color: #503018;
+}
+/*CSS for Contact us Pages---------------------------------------------------------------*/
+.ContactTextBox {
+    width: 250px;
+    height: 18px;
+    border: 1px;
+    border-color: #b1912e;
+    border-radius: 15px 15px;
+    border-style: solid;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 12pt;
+    color:#503018;
+}
+.ContactMsg {
+    width: 250px;
+    height: 150px;
+    border: 1px;
+    border-color: #b1912e;
+    border-radius: 10px 10px;
+    border-style: solid;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 12pt;
+    color: #503018;
+}
+.Contactbuttons {
+    width: 90px;
+    background-color: transparent;
+    border: 0px;
+    font-family: Arial;
+    font-size: 12pt;
+    text-align: right;
+    color: #503018;
+}
+
+    .Contactbuttons:hover {
+        font-family: Arial;
+        font-size: 12pt;
+        text-align: right;
+        color: #b1912e;
+    }
+
+    .Contactbuttons:focus {
+        font-family: Arial;
+        font-size: 12pt;
+        text-align: right;
+        color: #b1912e;
+    }
+.MapIcon {
+    background-color: #b1912e;
+    font-family: Arial;
+    font-size: 12pt;
+    text-align: right;
+    color: #b1912e;
+    border: 1px;
+    border-color: #b1912e;
+    border-style: solid;
+    width: 75px;
+    height: 75px;
+    /*padding: 3px 3px 3px 50px;*/
+    /*margin-left: 1%;
+    margin-right: 1%;*/
+    background-repeat: no-repeat;
+    /*background-position-x: 5%;*/
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 50px 50px;
+}

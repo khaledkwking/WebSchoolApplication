@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Admin_MasterPage" Codebehind="MasterPage.master.cs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+      <link href="../cssNew/bootstrap.css" rel="stylesheet"/>
+        <link href="../cssNew/swiper.min.css" rel="stylesheet"/>
+        <link href="../cssNew/font_icon.css" rel="stylesheet"/>
+        <link href="../cssNew/items_slider.css" rel="stylesheet"/>
+        <link href="../cssNew/fonts.css" rel="stylesheet"/>
+        <link href="../cssNew/style.css" rel="stylesheet"/>
+    
+
+    <link href="../Lib/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+       <link href="../CSS/remodal.css" rel="stylesheet" />
+    <link href="../CSS/remodal-default-theme.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

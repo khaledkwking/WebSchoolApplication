@@ -1,0 +1,368 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPageMain" Codebehind="MasterPageMain.master.cs" %>
+
+<!DOCTYPE html>
+
+
+
+<html lang="en" class="gr__moci_gov_kw">
+<head id="Head1" runat="server">
+      <title>أي تي ريت سوفت - برنامج المثالى </title>
+    <%-- favicon --%>
+    <link rel="shortcut icon" href="Images/favicon.ico">
+    <link rel="icon" href="Images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%-- Meta --%>
+    <meta name="application-name" content="" />
+    <meta name="description" content="" />
+      <meta name="generator" content="" />
+    <meta name="keywords" content="" />
+ 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=2">
+  <%--  <meta http-equiv="X-UA-Compatible" content="IE=edge">--%>
+
+   <link href="../CSS/WebFontStyle.css" rel="stylesheet" />
+    <%--<link href="Lib/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Lib/bootstrap-3.3.7/css/bootstrap-theme.min.css" rel="stylesheet" />--%>
+  <%--  <link href="../Lib/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />--%>
+    <link href="../CSS/MainStyle.css" rel="stylesheet" />
+   <%-- <link href="../CSS/menuStyle.css" rel="stylesheet" />
+    <link href="../CSS/animate.css" rel="stylesheet" />
+    <link href="../CSS/animate.min.css" rel="stylesheet" />
+    <link href="../CSS/toolsStyle.css" rel="stylesheet" />
+    <link href="../CSS/sideNav.css" rel="stylesheet" />--%>
+    <%--<link href="../CSS/serviceIconBar.css" rel="stylesheet" />
+    <link href="../CSS/gridMenu.css" rel="stylesheet" />--%>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+   <%-- <link href="CSS/jquery.jscrollpane.css" rel="stylesheet" />--%>
+   <%-- <link href="../CSS/style.css" rel="stylesheet" />--%>
+
+    
+
+    <link href="../cssNew/datepicker.css" rel="stylesheet" />
+    <link href="../cssNew/dateAndTime.css" rel="stylesheet" />
+    
+    <%--<meta charset="UTF-8">--%>
+    
+    <link href="../cssNew/bootstrap.css" rel="stylesheet">
+    <link href="../cssNew/swiper.min.css" rel="stylesheet">
+    <link href="../cssNew/font_icon.css" rel="stylesheet">
+    <link href="../cssNew/items_slider.css" rel="stylesheet">
+    <link href="../cssNew/fonts.css" rel="stylesheet">
+    <link href="../cssNew/style.css" rel="stylesheet">
+    
+
+    <link href="../Lib/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<%--    <link href="../Lib/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet" />--%>
+    <%--<link href="Moh/Resources/bootstrap-3.3.7/css/bootstrap-theme.min.css" rel="stylesheet" />--%>
+   <%-- <link href="Moh/Resources/font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />--%>
+  <%-- <link href="Moh/CSS/APNPXMainSyleRTL.css" rel="stylesheet" />--%>
+    <%--<link href="../Moh/CSS/toDoListStyle.css" rel="stylesheet" />
+    <link href="../Moh/CSS/dateAndTime.css" rel="stylesheet" />
+    <link href="../Moh/CSS/leftPushMenuStyle.css" rel="stylesheet" />
+    <link href="../Moh/CSS/rightPushMenu Style.css" rel="stylesheet" />
+    <link href="../Moh/CSS/weatherStyle.css" rel="stylesheet" />
+    <link href="../Moh/CSS/tooltipStyle.css" rel="stylesheet" />--%>
+
+    <link href="../CSS/remodal.css" rel="stylesheet" />
+    <link href="../CSS/remodal-default-theme.css" rel="stylesheet" />
+
+     <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%-- end CSS --%>
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <form id="form1" runat="server">
+         <!-- uper Header section -->
+   
+ <div class="uperHeader ">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 TexRight">
+                    <span class="dayWeek"> <asp:Label ID="lbldayweek" runat="server" Text="Label"></asp:Label></span>
+                    <span class="DayDate"> <asp:Label ID="lblCurDate" runat="server" Text="Label"></asp:Label></span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- header Section -->
+
+    <!-- nav Bar Section -->
+ <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 TexRight">
+                    <a href="#">
+                        <img src="../Images/logo.png" class="img-fluid" alt="logo1" height="40">
+                    </a>
+                </div>
+
+              <%--  <div class="col-md-6">
+                    <div class="logo2">
+                        <a href="#">
+                            <img src="../Images/HR.png" class="img-fluid ministrylogo" alt="logo1" height="50">
+
+                        </a>
+                    </div>
+                </div>--%>
+
+            </div>
+        </div>
+
+    </div>
+       
+        <div class="navBarContainer shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                 <li class="nav-item dropdown">
+                                     <li class="nav-item dropdown">       
+                                    <a class="nav-link dropdown-toggle" href="#" id="A4" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        ملف
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="Main.aspx">الرئيسية</a>
+                                        <a class="dropdown-item" href="BranchList.aspx">بيانات الافراع- الكفيل</a>
+                                        <a class="dropdown-item" href="DeptList.aspx">المسميات الوظيفية</a>
+                                        <a class="dropdown-item" href="VacationsList.aspx">مسميات الاجازات</a>
+                                        <a class="dropdown-item" href="LocationsList.aspx">مسمات الاقسام</a>
+                                        <a class="dropdown-item" href="NationalityList.aspx">اكواد الجنسيات</a>
+                                        <a class="dropdown-item" href="PerQlfList.aspx">اكواد المؤهلات</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">تغير كلمة المرور</a>
+                                        <a class="dropdown-item" href="logout.aspx">تسجيل خروج</a>
+                                      
+                                    </div>
+
+                                </li>
+                                  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="A5" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        شئون الموظفين
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="EmpAddData.aspx">ادخال بيانات موظف</a>
+                                        <a class="dropdown-item" href="EmpList.aspx">عرض بيانات الموظفين</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">أحتساب الرواتب</a>
+                                         <a class="dropdown-item" href="#">متابعة الموظفين</a>
+                                                                                 
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" target="_self" href="#" id="A6" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        طباعة النماذج
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">الشئؤن والجوزات</a>
+                                        <a class="dropdown-item" href="#">نماذج اخري</a>
+                                         <a class="dropdown-item" href="#">نماذج المرور</a>
+                                        <div class="dropdown-divider"></div>
+                                       
+                                    </div>
+
+                                </li>
+
+                             
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="A7" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        الحضور والانصراف
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">تحميل الدوام اليومى</a>
+                                        <a class="dropdown-item" href="#">عرض الدوام اليومي</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">متابعة دوام الموظف</a>
+                                        <a class="dropdown-item" href="#">بيانات الجهاز البصمة</a>
+                                    </div>
+
+
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="A8" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">
+                                        التقارير
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">كشف باسماء الموظفين</a>
+                                        <a class="dropdown-item" href="#">تقرير سلف الموظفين</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">تقرير غياب الموظفين</a>
+                                        <a class="dropdown-item" href="#">تقرير خصومات الموظفين</a>
+                                        <a class="dropdown-item" href="#">تقرير الاضافات الموظفين</a>
+                                       <%--  <div class="dropdown-divider"></div>--%>
+                                         <a class="dropdown-item" href="#">تقرير اجازات الموظفين</a>
+                                         <a class="dropdown-item" href="#">تقرير رواتب الموظفين</a>
+                                    </div>
+
+                                </li>
+
+                                   <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="A9" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                       aria-expanded="false">  الادوات     </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">اعدادات</a>
+                                        <a class="dropdown-item" href="#">صلاحيات المستخدمين</a>
+                                    
+                                    </div>
+
+                                </li>
+                                  
+                            </ul>
+                        </div>
+                      
+                    </nav>
+                    
+                   
+                </div>
+
+                
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+      
+     
+
+ </asp:ContentPlaceHolder>
+       
+    <%--    <footer class="copyright">--%>
+   <footer >
+              <%--  <div class="col-sm-12">
+                   
+                   
+                    © أي تي رايت سوفت - Software system
+                </div>--%>
+               <div class="copyRightContainer txtCenter">
+            <div class="container">
+                <div> © أي تي رايت سوفت - Software system</div>
+
+            </div>
+        </div>
+            </footer>
+     
+                <script src="../Moh/JS/jquery-3.1.0.min.js"></script>
+                <script src="../Moh/Resources/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+                <script src="../Moh/JS/TooltipJS.js"></script>
+                <script src="../Moh/JS/dateAndTime.js"></script>
+                <script src="../Moh/JS/toDoListJs.js"></script>
+                <script src="../Moh/JS/leftPushMenuJs.js"></script>
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js'></script>
+                <%--<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>--%>
+                <script src="../Moh/JS/bootstrap-datepicker.js"></script>
+                <script src="../Moh/JS/textbooxsDatePicker.js"></script>
+                <script src="../Moh/JS/weather.js"></script>
+                <script src="../Moh/Resources/animation/animationJS/animatedElements.js"></script>
+
+                <%-- main menu JS --%>
+                <script src="../Moh/Resources/verticalAccordionMenu/js/jquery.cookie.js"></script>
+                <script src="../Moh/Resources/verticalAccordionMenu/js/jquery.hoverIntent.minified.js"></script>
+                <script src="../Moh/Resources/verticalAccordionMenu/js/jquery.dcjqaccordion.2.7.min.js"></script>
+                <script src="../Moh/Resources/verticalAccordionMenu/js/jquery.dcjqaccordion.2.7.js"></script>
+                <script src="../Moh/JS/mainMenuJs.js"></script>
+
+    <script src="../NewJS/jquery-3.2.1.min.js"></script>
+    <script src="../NewJS/popper.min.js"></script>
+    <script src="../NewJS/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+
+
+    <!-- search-->
+    <script>
+        function buttonUp() {
+            var valux = $('.sb-search-input').val();
+            valux = $.trim(valux).length;
+            if (valux !== 0) {
+                $('.sb-search-submit').css('z-index', '99');
+            } else {
+                $('.sb-search-input').val('');
+                $('.sb-search-submit').css('z-index', '-999');
+            }
+        }
+
+        $(document).ready(function () {
+            var submitIcon = $('.sb-icon-search');
+            var submitInput = $('.sb-search-input');
+            var searchBox = $('.sb-search');
+            var isOpen = false;
+
+            $(document).mouseup(function () {
+                if (isOpen == true) {
+                    submitInput.val('');
+                    $('.sb-search-submit').css('z-index', '-999');
+                    submitIcon.click();
+                }
+            });
+
+            submitIcon.mouseup(function () {
+                return false;
+            });
+
+            searchBox.mouseup(function () {
+                return false;
+            });
+
+            submitIcon.click(function () {
+                if (isOpen == false) {
+                    searchBox.addClass('sb-search-open');
+                    isOpen = true;
+                } else {
+                    searchBox.removeClass('sb-search-open');
+                    isOpen = false;
+                }
+            });
+
+        });
+    </script>
+    <!-- Initialize Swiper -->
+    <script src="../NewJS/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script src="../NewJS/jquery-3.1.0.min.js"></script>
+    <script src="../NewJS/datepicker.js"></script>
+    <script src="../NewJS/textbooxsDatePicker.js"></script>
+        </form>
+</body>
+</html>

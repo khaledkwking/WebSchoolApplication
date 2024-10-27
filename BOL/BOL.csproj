@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A9FE6E5-CA8E-4D28-8CF4-52ADFE4358C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOL</RootNamespace>
+    <AssemblyName>BOL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmailSender.cs" />
+    <Compile Include="InvoicesProduct.cs" />
+    <Compile Include="Invoices.cs" />
+    <Compile Include="School\Govs.cs" />
+    <Compile Include="School\Cde_Area.cs" />
+    <Compile Include="School\CDE_NATIONALITY.cs" />
+    <Compile Include="School\Sch_customerReply.cs" />
+    <Compile Include="School\Sch_customersCalls.cs" />
+    <Compile Include="School\Sch_Groups.cs" />
+    <Compile Include="School\Sch_GroupSubjectsDiff.cs" />
+    <Compile Include="School\Sch_TeacherGovs.cs" />
+    <Compile Include="School\Sch_TeacherSubjectsGovs.cs" />
+    <Compile Include="School\Student_Tests.cs" />
+    <Compile Include="School\Sch_LastInvoices.cs" />
+    <Compile Include="School\Sch_PaymentReciteBack.cs" />
+    <Compile Include="School\Sch_Customer.cs" />
+    <Compile Include="School\Sch_GroupSubjects.cs" />
+    <Compile Include="School\Sch_StudentsGroupAttendance.cs" />
+    <Compile Include="School\Sch_SubjectCommon.cs" />
+    <Compile Include="School\Sch_StudentsIndvAttendance.cs" />
+    <Compile Include="School\Sch_InvPaymentDates.cs" />
+    <Compile Include="School\Salarytypes.cs" />
+    <Compile Include="School\Sch_TeacherSubjects.cs" />
+    <Compile Include="School\Sch_Teachers.cs" />
+    <Compile Include="School\Sch_PaymentRecite.cs" />
+    <Compile Include="School\Sch_InvDetails.cs" />
+    <Compile Include="School\Sch_Invoices.cs" />
+    <Compile Include="School\Sch_Subjects.cs" />
+    <Compile Include="School\Sch_SchoolType.cs" />
+    <Compile Include="School\Sch_Student.cs" />
+    <Compile Include="School\Sch_Periods.cs" />
+    <Compile Include="School\Sch_Stages.cs" />
+    <Compile Include="TemplateAccounting.cs" />
+    <Compile Include="Accounts.cs" />
+    <Compile Include="QidDetailsStatment.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Qids.cs" />
+    <Compile Include="qidsDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemPages.cs" />
+    <Compile Include="UserRoles.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="UsersPages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{4968f735-b039-4e66-9183-cdd1a4682ea3}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
